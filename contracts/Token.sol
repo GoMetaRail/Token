@@ -16,7 +16,7 @@ contract Token is Context, IBEP20, Ownable {
     string private _name;
 
     constructor() public {
-        _name = "GoMeta Token";
+        _name = "GoMeta Coin";
         _symbol = "GOMETA";
         _decimals = 18;
         _totalSupply = 1000000000 * (10 ** uint256(_decimals));
